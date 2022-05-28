@@ -2,8 +2,8 @@
 <br />
 <h1>   </h1>
 <p align="center"> 
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza">
-    <img src="https://user-images.githubusercontent.com/50385593/170808817-722c4e0c-cb9f-420f-b945-3b3f26bf9cf2.png" alt="Logo" width="260" height="260">
+  <a href="https://github.com/HACKATONA-ES-2022/OsFieisDoMaza">
+    <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
   </a>
   
   <h3 align="center">Os Fiéis da Maza</h3>  
@@ -56,7 +56,7 @@ cd 'FOLDER DO NOSSO REPO'
 ```
 Rodar a instalação das dependências do projeto:
 ```shell
-npm install
+yarn install
 ```
 Iniciar o projeto com o seguinte comando:
 ```shell
