@@ -1,6 +1,6 @@
 import Sexo from "./Enums/Sexo";
 
-class Aluno{
+export class Aluno{
     private cpf: string;
     private nome: string;
     private dataNascimento: Date;
