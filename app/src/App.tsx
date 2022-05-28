@@ -1,3 +1,8 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { useRef } from "react";
+
 import Button from "./components/Button";
 import Gallery from "./components/Gallery";
 import { ArrowRight, ArrowLeft } from "./components/Gallery/styles";
@@ -34,10 +39,19 @@ import {
     ButtonSecundario,
     ButtonLanguage,
     TextRights,
+    CustomA,
 } from "./styles/styles";
 import pixelToRem from "./utils/pxToRem";
 
+const scrollToRef = (ref: any) => window.scrollTo(0, ref.current.offsetTop);
+// General scroll to element function
+
 function App() {
+    const myRef = useRef(null);
+    const myRefP = useRef(null);
+    const executeScroll = () => scrollToRef(myRef);
+    const executeScrollP = () => scrollToRef(myRefP);
+
     return (
         <>
             <Container flex="column" margin={pixelToRem(24, 50, 50)}>
@@ -47,15 +61,19 @@ function App() {
                     <MiddleOptions>
                         <ul>
                             <li>
-                                <a href="/">Tela Inicial</a>
+                                <a href="/about">Tela Inicial</a>
                             </li>
 
                             <li>
-                                <a href="/about">Sobre nós</a>
+                                <CustomA onClick={executeScroll}>
+                                    Sobre nós
+                                </CustomA>
                             </li>
 
                             <li>
-                                <a href="/search">Profissionais</a>
+                                <CustomA onClick={executeScrollP}>
+                                    Profissionais
+                                </CustomA>
                             </li>
                         </ul>
                     </MiddleOptions>
@@ -89,7 +107,7 @@ function App() {
                 </Main>
             </Container>
 
-            <SectionAbout flex="column">
+            <SectionAbout ref={myRef} flex="column">
                 <Container width="100%">
                     <ContainerAbout
                         width="100%"
