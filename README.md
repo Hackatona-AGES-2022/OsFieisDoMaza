@@ -3,9 +3,9 @@
 <h1>   </h1>
 <p align="center"> 
   <a href="https://github.com/HACKATONA-ES-2022/OsFieisDoMaza">
-    <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
+    <img src="https://user-images.githubusercontent.com/50385593/170811169-2671bb32-fc81-456b-a802-9bcb7045e8f2.png" alt="Logo" width="260" height="260">
   </a>
-  
+
   <h3 align="center">Os Fiéis da Maza</h3>  
   
   <p align="center">
@@ -48,11 +48,11 @@
 # Instalação :heavy_check_mark:
 Para realizar a isntalação e conseguir rodar o projeto localmente, basta você fazer o clone deste repositório:
 ```shell
-git clone 'LINK DO NOSSO REPO'
+git clone https://github.com/Hackatona-AGES-2022/OsFieisDoMaza.git
 ```
-Entrar na pasta X:
+Entrar na pasta app/
 ```shell
-cd 'FOLDER DO NOSSO REPO'
+cd app/
 ```
 Rodar a instalação das dependências do projeto:
 ```shell
@@ -60,67 +60,61 @@ yarn install
 ```
 Iniciar o projeto com o seguinte comando:
 ```shell
-npm start
+yarn start
 ```
 Após realizar esse passo a passo, o projeto já está disponível para executar e pode ser acessado pelo link: https://localhost:3000
 
 
 # Arquitetura :hammer:
-### Diagrama de Componente
-O Diagrama de componentes tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - no caso, as telas do sistema -, mostrando como estão dispostos e com quais outros componentes interagem.
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/logo-firebase.png">
-    <img src="images/diagrama_de_componentes.jpeg" alt="Logo" width="558" height="443">
-  </a>
-</p>
+### Diagrama de Fluxo
+O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - nesse caso, o fluxo da criação de um usuário no frontend até chegar ao banco de dados, com toda a lógica envolvendo Cognito e triggers com AWS Lambda.
 
-### Tecnologia Utilizada
-<br />
-<img src="" alt="Logo" width="860" height="200">
-<br />
+![Diagrama em branco](https://user-images.githubusercontent.com/69119889/170842277-f906e896-2288-41c3-bcc6-37eed31f9ea1.jpeg)
+
+
+### Tecnologia Utilizadas
+<ul>
+   <li>React</li>
+   <li>Typescript</li>
+   <li>Node</li>
+   <li>MongoDB</li>
+   <li>AWS Lambda</li> 
+  <li>AWS Cognito</li>
+   <li>ECS</li>
+   <li>Docker</li>
+   <li>AWS Amplify</li>
+</ul>
 
 ### Fluxo do usuário
 O fluxo de usuário é uma técnica que te permite mapear todo fluxo de telas do seu site ou aplicativo de forma simples. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
 
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/fluxo_do_usuario.jpeg">
-    <img src="images/fluxo_do_usuario.jpeg" alt="Logo" width="777" height="403">
-  </a>
-</p>
+![sla](https://user-images.githubusercontent.com/69119889/170842299-bdab56b0-fa95-4195-a52c-20885481d8f5.jpeg)
+
+### Diagrama de entidades
+
+![image](https://user-images.githubusercontent.com/69119889/170842591-8e9bb2dc-5acc-413b-b765-1dada904e873.png)
 
 # Mockups :pencil2:
-Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo aplicativo [Figma](https://www.figma.com/), que permite o desenvolvimento fidedigno para apresentação do projeto ao stakeholder, e posteriormente, esses mockups servem para auxiliar os desenvolvedores no desenvolvimento do aplicativo.
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/TelaHome-TelaInicial-1.PNG">
-    <img src="images/TelaHome-TelaInicial-1.PNG" alt="Logo" width="377" height="353">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/CadastroUsuario-CadastroOrg-2.PNG">
-    <img src="images/CadastroUsuario-CadastroOrg-2.PNG" alt="Logo" width="377" height="347">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/ListagemDoacao-HomeOrg-3.PNG">
-    <img src="images/ListagemDoacao-HomeOrg-3.PNG" alt="Logo" width="349" height="343">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/DetalhesDoacao-CadastroDoacao-4.PNG">
-    <img src="images/DetalhesDoacao-CadastroDoacao-4.PNG" alt="Logo" width="349" height="344">
-  </a>  
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/UsuarioGameficado-5.PNG">
-    <img src="images/UsuarioGameficado-5.PNG" alt="Logo" width="171" height="345">
-  </a>
-</p>
+Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo aplicativo [Figma](https://www.figma.com/file/zMlG0nmirpAJYQuhTzbkSq/Hackatona-ES-2022?node-id=3%3A148), que permite o desenvolvimento fidedigno para apresentação do projeto ao stakeholder, e posteriormente, esses mockups servem para auxiliar os desenvolvedores no desenvolvimento do aplicativo.
 
-# Telas Desenvolvidas :computer: 
+
 # Requisitos :book:
 ### User Stories
 |User Story|Descrição|Tamanho|
 |---|---|---|
-|US1| Eu como usuário quero me cadastrar como doador.|P|
-|US2| Eu como usuário quero me cadastrar como organização.|P|
-|US3| Eu como organização quero criar uma ação social.|M|
-|US4| Eu como organização gostaria de fornecer um feedback sobre a ação social para meus doadores.|M|
-|US5| Eu como apoiador gostaria de fazer uma pesquisa com filtros.|M|
-|US6| Eu como doador gostaria de visualizar como está o progresso de doações recebidas da instituição.|M|
-|US7| Eu como doador gostaria de fazer uma doação para ajudar uma instituição.|M|
+|US1| Eu, como profissional da saúde, gostaria de poder me cadastrar na plataforma.|P|
+|US2| Eu, como profissional da saúde, gostaria de poder registrar meus horários de atendimento disponíveis.|P|
+|US3| Eu, como profissional da saúde, gostaria de poder definir as regiões nas quais eu posso atender.|M|
+|US4| Eu, como profissional da saúde, gostaria de poder escrever uma breve descrição sobre mim.|P|
+|US5| Eu, como profissional da saúde, gostaria de poder visualizar os meus pacientes e seus respectivos dados.|M|
+|US6| Eu, como instituição, gostaria de poder me cadastrar na plataforma.|P|
+|US7| Eu, como instituição, gostaria de registrar possíveis alunos.|P|
+|US8| Eu, como instituição, gostaria de visualizar os alunos registrados.|P|
+|US9| Eu, como aluno, gostaria de poder me conectar na plataforma.|P|
+|US10| Eu, como aluno, gostaria de poder visualizar os profissionais disponíveis.|M|
+|US11| Eu, como aluno, gostaria de poder visualizar mais informações de um profissional específico.|M|
+|US12| Eu, como aluno, gostaria de poder agendar um horário com o profissional escolhido.|M|
+|US13| Eu, como aluno, gostaria de poder visualizar os meus horários marcados com o respectivo profissional.|M|
 
 ### GitHub Project
 O GitHub Project foi utilizado para organizar as tarefas (issues) da equipe.
