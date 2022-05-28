@@ -2,7 +2,7 @@
 <br />
 <h1>   </h1>
 <p align="center"> 
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza">
+  <a href="https://github.com/HACKATONA-ES-2022/OsFieisDoMaza">
     <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
   </a>
   
@@ -11,14 +11,14 @@
   <p align="center">
     Hackatona 2022 - Engenharia de Software
     <br />
-    <a href="http://www.ages.pucrs.br/hackatona-es-2020/"><strong>● Visualizar Site da Hackatona ●</strong></a>
+    <a href="http://www.ages.pucrs.br/hackatona-es-2022/"><strong>● Visualizar Site da Hackatona ●</strong></a>
     <br />
     <br />
     <p align="justify">
-     <strong>PROBLEMA.  </strong> Em função da pandemia, a desigualdade social foi agravada no país, colocando pessoas que já estavam em situações precárias em um beco sem saída, não tendo a quem recorrer.
+     <strong>PROBLEMA.  </strong> 
     <br />
     <br />
-    <strong>SOLUÇÃO.  </strong> Um aplicativo de apoio para causas sociais durante e pós pandemia, auxiliando na recuperação de comunidades carentes que foram afetadas pelo vírus através de organizações que já ajudam ou pretendem ajudar, com foco em fornecer um feedback para os doadores.
+    <strong>SOLUÇÃO.  </strong> 
     </p>
   </p>
 </p>
