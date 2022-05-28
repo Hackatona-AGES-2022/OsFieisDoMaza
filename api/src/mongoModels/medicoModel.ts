@@ -10,7 +10,6 @@ const medicoSchema = new mongoose.Schema({
     email: {type: String, required: true, unique: true},
     genero: {type: String, enum: ['Masculino', 'Feminino', 'Outro'], required: true},
     registro: {type: Number, required: true, unique: true}, // CRM/CFP/CRP
-    senha: {type: String, required: true},
     agenda: {type: Array, required: false, default: []},
     cognitoId: {type: String, required: true, unique: true}
 }, {
