@@ -4,5 +4,5 @@ class Medico {
     private sexo:Sexo;
     private nome:string;
     private dataNascimento:Date;
-    private cfp:number;
+    private cfp:string;
 }
