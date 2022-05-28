@@ -66,12 +66,10 @@ Após realizar esse passo a passo, o projeto já está disponível para executar
 
 
 # Arquitetura :hammer:
-### Diagrama de Componente
-O Diagrama de componentes tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - no caso, as telas do sistema -, mostrando como estão dispostos e com quais outros componentes interagem.
+### Diagrama de Fluxo
+O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - no caso, as telas do sistema -, mostrando como estão dispostos e com quais outros componentes interagem.
 <p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/logo-firebase.png">
-    <img src="images/diagrama_de_componentes.jpeg" alt="Logo" width="558" height="443">
-  </a>
+  ![Diagrama em branco](https://user-images.githubusercontent.com/69119889/170841162-8aa54590-8862-4f14-aebd-ab081ff42da6.jpeg)
 </p>
 
 ### Tecnologia Utilizada
