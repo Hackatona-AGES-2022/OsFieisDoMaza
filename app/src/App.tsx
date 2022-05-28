@@ -186,7 +186,7 @@ function App() {
                             inclusão digital e facilitar o acesso de comunidades
                             menos favorecidas à profissionais da saúde mental,
                             proporcionando uma qualidade de vida e bem estar a
-                            todos. Pessoas que estão de bem consigo tendem a ser
+                            todos.
                         </TextLogo>
 
                         <TextRights>©2022 All rights reserved</TextRights>
