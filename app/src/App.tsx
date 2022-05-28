@@ -146,7 +146,11 @@ function App() {
                     <InkGuy />
 
                     <DivButton>
-                        <Button text="Encontre psicólogos" fullWidth />
+                        <Button
+                            text="Encontre psicólogos"
+                            onClick={executeScrollP}
+                            fullWidth
+                        />
                     </DivButton>
                 </Main>
             </Container>

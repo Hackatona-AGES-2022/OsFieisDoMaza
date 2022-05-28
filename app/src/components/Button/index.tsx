@@ -6,10 +6,16 @@ export interface ButtonProps {
     text?: string;
 
     fullWidth?: boolean;
+
+    onClick?: () => any;
 }
 
-function Button({ text, fullWidth }: ButtonProps) {
-    return <ButtonComponent fullWidth={fullWidth}>{text}</ButtonComponent>;
+function Button({ text, fullWidth, onClick }: ButtonProps) {
+    return (
+        <ButtonComponent onClick={onClick} fullWidth={fullWidth}>
+            {text}
+        </ButtonComponent>
+    );
 }
 
 export default Button;

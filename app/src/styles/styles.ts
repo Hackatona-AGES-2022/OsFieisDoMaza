@@ -395,7 +395,7 @@ export const DivSocial = styled.div`
 
 export const MiddleOptions = styled.div`
     gap: ${pixelToRem(53)};
-    margin-right: 250px;
+    margin-right: 210px;
 
     & ul {
         display: flex;
