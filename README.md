@@ -90,7 +90,7 @@ O fluxo de usuário é uma técnica que te permite mapear todo fluxo de telas do
 
 <p align="center">
   <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/fluxo_do_usuario.jpeg">
-    <img src="images/fluxo_do_usuario.jpeg" alt="Logo" width="777" height="403">
+    <img src="images/sla.jpeg" alt="Logo" width="777" height="403">
   </a>
 </p>
 
