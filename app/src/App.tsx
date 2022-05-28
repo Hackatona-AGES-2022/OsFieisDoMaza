@@ -61,7 +61,7 @@ function App() {
                     <MiddleOptions>
                         <ul>
                             <li>
-                                <a href="/about">Tela Inicial</a>
+                                <a href="/">Tela Inicial</a>
                             </li>
 
                             <li>
