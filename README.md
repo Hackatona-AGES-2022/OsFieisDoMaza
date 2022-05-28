@@ -72,10 +72,18 @@ O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturaç�
   ![Diagrama em branco](https://user-images.githubusercontent.com/69119889/170841162-8aa54590-8862-4f14-aebd-ab081ff42da6.jpeg)
 </p>
 
-### Tecnologia Utilizada
-<br />
-<img src="" alt="Logo" width="860" height="200">
-<br />
+### Tecnologia Utilizadas
+<ul>
+   <li>React</li>
+   <li>Typescript</li>
+   <li>Node</li>
+   <li>MongoDB</li>
+   <li>AWS Lambda</li> 
+  <li>AWS Cognito</li>
+   <li>ECS</li>
+   <li>Docker</li>
+   <li>AWS Amplify</li>
+</ul>
 
 ### Fluxo do usuário
 O fluxo de usuário é uma técnica que te permite mapear todo fluxo de telas do seu site ou aplicativo de forma simples. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
@@ -107,7 +115,6 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
   </a>
 </p>
 
-# Telas Desenvolvidas :computer: 
 # Requisitos :book:
 ### User Stories
 |User Story|Descrição|Tamanho|
