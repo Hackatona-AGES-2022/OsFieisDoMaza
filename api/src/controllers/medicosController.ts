@@ -19,7 +19,7 @@ medicoRoute.get("/:id", async (req, res) => {
     try {
         const idMedico: string = req.params.id;
 
-        const getMedicoResponse: medicoDocument = await medicoModel.findById({_id: idMedico});
+        const getMedicoResponse: medicoDocument = await medicoModel.findOne({cognitoId: idMedico});
         if (getMedicoResponse) {
             res.status(200).json(getMedicoResponse);
         }
