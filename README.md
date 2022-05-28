@@ -67,7 +67,7 @@ Após realizar esse passo a passo, o projeto já está disponível para executar
 
 # Arquitetura :hammer:
 ### Diagrama de Fluxo
-O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - no caso, as telas do sistema -, mostrando como estão dispostos e com quais outros componentes interagem.
+O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - nesse caso, o fluxo da criação de um usuário no frontend até chegar ao banco de dados, com toda a lógica envolvendo Cognito e triggers com AWS Lambda.
 
 ![Diagrama em branco](https://user-images.githubusercontent.com/69119889/170842277-f906e896-2288-41c3-bcc6-37eed31f9ea1.jpeg)
 
@@ -90,27 +90,13 @@ O fluxo de usuário é uma técnica que te permite mapear todo fluxo de telas do
 
 ![sla](https://user-images.githubusercontent.com/69119889/170842299-bdab56b0-fa95-4195-a52c-20885481d8f5.jpeg)
 
+### Diagrama de entidades
+
+![image](https://user-images.githubusercontent.com/69119889/170842591-8e9bb2dc-5acc-413b-b765-1dada904e873.png)
 
 # Mockups :pencil2:
-Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo aplicativo [Figma](https://www.figma.com/), que permite o desenvolvimento fidedigno para apresentação do projeto ao stakeholder, e posteriormente, esses mockups servem para auxiliar os desenvolvedores no desenvolvimento do aplicativo.
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/TelaHome-TelaInicial-1.PNG">
-    <img src="images/TelaHome-TelaInicial-1.PNG" alt="Logo" width="377" height="353">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/CadastroUsuario-CadastroOrg-2.PNG">
-    <img src="images/CadastroUsuario-CadastroOrg-2.PNG" alt="Logo" width="377" height="347">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/ListagemDoacao-HomeOrg-3.PNG">
-    <img src="images/ListagemDoacao-HomeOrg-3.PNG" alt="Logo" width="349" height="343">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/DetalhesDoacao-CadastroDoacao-4.PNG">
-    <img src="images/DetalhesDoacao-CadastroDoacao-4.PNG" alt="Logo" width="349" height="344">
-  </a>  
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/UsuarioGameficado-5.PNG">
-    <img src="images/UsuarioGameficado-5.PNG" alt="Logo" width="171" height="345">
-  </a>
-</p>
+Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo aplicativo [Figma](https://www.figma.com/file/zMlG0nmirpAJYQuhTzbkSq/Hackatona-ES-2022?node-id=3%3A148), que permite o desenvolvimento fidedigno para apresentação do projeto ao stakeholder, e posteriormente, esses mockups servem para auxiliar os desenvolvedores no desenvolvimento do aplicativo.
+
 
 # Requisitos :book:
 ### User Stories
