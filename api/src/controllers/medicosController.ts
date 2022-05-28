@@ -13,7 +13,7 @@ medicoRoute.post("/", async (req, res) => {
     } catch (couldNotCreateException) {
         res.status(400).send(couldNotCreateException.message);
     }
-})
+});
 
 medicoRoute.get("/:id", async (req, res) => {
     try {
@@ -29,9 +29,9 @@ medicoRoute.get("/:id", async (req, res) => {
     }
 });
 
-medicoRoute.get("/todos", async (_req, res) => {
+medicoRoute.get("/", async (_req, res) => {
     try {
-        const medicos: Array<medicoDocument> = await medicoModel.find();
+        const medicos: Array<medicoDocument> = await medicoModel.find().limit(3);
         res.status(200).json(medicos);
     } catch (couldNotGetMedicosException) {
         res.status(400).send(couldNotGetMedicosException.message);
