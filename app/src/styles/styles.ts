@@ -40,7 +40,65 @@ export const Container = styled.div<GalleryFlexContainerProps>`
 
 export const Header = styled.div`
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
     padding-bottom: ${pixelToRem(35)};
+`;
+
+export const RightSideOptions = styled.div`
+    display: contents;
+    width: 120px;
+`;
+
+export const ButtonPrimario = styled.div`
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+        color: #49cccc;
+        font: var(--text-3);
+        text-decoration: none;
+    }
+`;
+
+export const ButtonSecundario = styled.div`
+    display: flex;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+        font: var(--text-3);
+        color: white;
+        font: var(--text-3);
+        text-decoration: none;
+    }
+`;
+
+export const ButtonLanguage = styled.div`
+    display: flex;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 50px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+        font: var(--text-3);
+        color: white;
+        font: var(--text-3);
+        text-decoration: none;
+    }
 `;
 
 export const Logo = styled.image<GalleryFlexContainerProps>`
@@ -56,10 +114,8 @@ export const Main = styled.div`
 `;
 
 export const FirstTitle = styled.div`
-    color: var(--sun);
-    font: var(--text-4);
-    text-transform: uppercase;
-    letter-spacing: ${pixelToRem(5)};
+    margin-left: 100px;
+    margin-bottom: 45px;
 `;
 
 export const SecondTitle = styled.p`
@@ -103,19 +159,41 @@ export const SectionAbout = styled.div<GalleryFlexContainerProps>`
 `;
 
 export const DivProblemSolution = styled(motion.div)<GalleryFlexContainerProps>`
-    max-width: ${pixelToRem(603)};
+    width: 85%;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const SecondSubTitle = styled.p`
-    font: var(--font-heading-1);
-    color: var(--text);
+    font: var(--font-heading-2);
+    color: #222222;
+    font-weight: normal;
     padding-top: ${pixelToRem(14)};
+    text-align: center;
+
+    & span {
+        font-weight: bold;
+    }
 `;
 
 export const TextMars = styled.p`
-    font: var(--text-1);
-    color: var(--gray-05);
+    font: var(--font-heading-3);
+    color: #222222;
+    font-weight: normal;
     padding-top: ${pixelToRem(26)};
+    text-align: center;
+
+    & span {
+        font-weight: bold;
+    }
+`;
+
+export const TextRights = styled.p`
+    font: var(--font-text-1);
+    color: white;
+    font-weight: bold;
+    padding-top: ${pixelToRem(26)};
+    margin-bottom: 35px;
 `;
 
 export const GalleryContent = styled.div<GalleryFlexContainerProps>`
@@ -143,13 +221,16 @@ export const ContainerAbout = styled.div<GalleryFlexContainerProps>`
     align-items: ${(props) => props.alignItems};
     justify-content: ${(props) => props.justifyContent};
     width: ${(props) => props.width};
-    margin-top: ${pixelToRem(180)};
+    margin-top: ${pixelToRem(110)};
+    margin-bottom: ${pixelToRem(160)};
     gap: ${pixelToRem(200)};
 `;
 
 export const TextLogo = styled.p`
-    font: var(--font-heading-2);
+    font: var(--font-heading-3);
     color: white;
+    margin-bottom: 15px;
+    text-align: justify;
 `;
 
 export const TextSubscribe = styled(motion.p)`
@@ -182,9 +263,10 @@ export const DivImageFish = styled(motion.div)`
 
 export const DivFooterBottom = styled.div`
     display: flex;
-    position: absolute;
     align-self: flex-end;
     margin-right: 150px;
+    position: relative;
+    top: 368px;
 `;
 
 export const DivSocial = styled.div`
@@ -196,8 +278,9 @@ export const DivSocial = styled.div`
     }
 `;
 
-export const DivFooterMenu = styled.div`
+export const MiddleOptions = styled.div`
     gap: ${pixelToRem(53)};
+    margin-right: 250px;
 
     & ul {
         display: flex;
