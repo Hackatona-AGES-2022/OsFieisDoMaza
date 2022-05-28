@@ -89,6 +89,7 @@ O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturaç�
 O fluxo de usuário é uma técnica que te permite mapear todo fluxo de telas do seu site ou aplicativo de forma simples. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
 
 ![sla](https://user-images.githubusercontent.com/69119889/170842299-bdab56b0-fa95-4195-a52c-20885481d8f5.jpeg)
+![loginNossaMente](https://user-images.githubusercontent.com/39033196/170843097-fa8832df-3c3d-4831-88ac-7fd0873433ac.gif)
 
 ### Diagrama de entidades
 
