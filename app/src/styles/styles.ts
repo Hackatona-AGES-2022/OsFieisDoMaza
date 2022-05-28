@@ -171,6 +171,9 @@ export const SecondTitle = styled.p`
     color: white;
     font-weight: 100;
     width: 600px;
+    @media (max-width: ${pixelToRem(800)}) {
+        width: 400px;
+    }
 `;
 
 export const Subtitle = styled.p`
