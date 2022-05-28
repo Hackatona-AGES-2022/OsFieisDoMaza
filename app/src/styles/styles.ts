@@ -358,6 +358,7 @@ export const SectionForm = styled.div`
 export const SectionFooter = styled.div`
     display: flex;
     flex-direction: column;
+    height: 400px;
 `;
 
 export const DivImageFish = styled(motion.div)`
@@ -378,7 +379,7 @@ export const DivFooterBottom = styled.div`
     align-self: flex-end;
     margin-right: 150px;
     position: relative;
-    top: 348px;
+    top: 300px;
 `;
 
 export const DivSocial = styled.div`
@@ -419,7 +420,7 @@ export const LogoFooter = styled.div`
     position: absolute;
     margin-top: -90px;
     margin-left: 180px;
-    width: 600px;
+    width: 800px;
     @media (max-width: ${pixelToRem(900)}) {
         width: 400px;
     }

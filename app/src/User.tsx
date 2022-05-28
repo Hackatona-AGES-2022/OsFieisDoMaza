@@ -54,11 +54,11 @@ function User() {
                 <GreyTable>
                     <GreenTable>
                         <WhiteTable>
-                            {response.map((item: any) => {
+                            {/* {response.map((item: any) => {
                                 return (
                                     <Doctor name={item.name} date={item.date} />
                                 );
-                            })}
+                            })} */}
                         </WhiteTable>
                     </GreenTable>
                 </GreyTable>
