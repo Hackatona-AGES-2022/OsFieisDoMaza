@@ -6,19 +6,22 @@
     <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
   </a>
   
-  <h3 align="center">HelpOut</h3>  
+  <h3 align="center">Os Fiéis da Maza</h3>  
   
   <p align="center">
     Hackatona 2022 - Engenharia de Software
     <br />
-    <a href="http://www.ages.pucrs.br/hackatona-es-2020/"><strong>● Visualizar Site da Hackatona ●</strong></a>
+    <a href="http://www.ages.pucrs.br/hackatona-es-2022/"><strong>● Visualizar Site da Hackatona ●</strong></a>
     <br />
     <br />
     <p align="justify">
-     <strong>PROBLEMA.  </strong> Em função da pandemia, a desigualdade social foi agravada no país, colocando pessoas que já estavam em situações precárias em um beco sem saída, não tendo a quem recorrer.
+     <strong>PROBLEMA.  </strong> Como tornar a internet um local mais saudável?
     <br />
     <br />
-    <strong>SOLUÇÃO.  </strong> Um aplicativo de apoio para causas sociais durante e pós pandemia, auxiliando na recuperação de comunidades carentes que foram afetadas pelo vírus através de organizações que já ajudam ou pretendem ajudar, com foco em fornecer um feedback para os doadores.
+    <strong>TRILHA.  </strong> Saúde Mental
+    <br />
+    <br />
+    <strong>SOLUÇÃO.  </strong> Plataforma onde voluntariamente psicólogos e psiquiatras podem se disponibilizar gratuitamente para realizar consultas online ou presencial para grupos de pessoas que não possuem condições financeiras. A plataforma será disponibilizada para escolas a fim de auxiliar familiares da comunidade a encontrarem ajuda profissional.
     </p>
   </p>
 </p>
@@ -39,7 +42,7 @@
 - [Telas Desenvolvidas :computer:](#telas-desenvolvidas-computer)
 - [Requisitos :book:](#requisitos-book)
     - [User Stories](#user-stories)
-    - [Trello](#trello)
+    - [GitHub Project](#github-project)
 - [Colaboradores :mortar_board:](#colaboradores-mortar_board)
 
 # Instação :heavy_check_mark:
@@ -145,18 +148,17 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 |US6| Eu como doador gostaria de visualizar como está o progresso de doações recebidas da instituição.|M|
 |US7| Eu como doador gostaria de fazer uma doação para ajudar uma instituição.|M|
 
-### Trello
-O trello foi utilizado para organizar as tarefas da equipe.
-<img src="images/trello.png" alt="Logo" width="1300" height="570">
+### GitHub Project
+O GitHub Project foi utilizado para organizar as tarefas (issues) da equipe.
 
 # Colaboradores :mortar_board:
 <table>
   <tr>
     <td align="center"><a href="https://github.com/brun0-znx"><img src="https://avatars.githubusercontent.com/u/69119889?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Chanan</b></sub></a><br /><a href="https://github.com/brun0-znx" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/FranciscoJLucca"><img src="https://avatars0.githubusercontent.com/u/48070476?v=4" width="100px;" alt=""/><br /><sub><b>Francisco João Lucca Neto</b></sub></a><br /><a href="https://github.com/FranciscoJLucca" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/HamesterFelipe"><img src="https://avatars0.githubusercontent.com/u/57925329?v=4" width="100px;" alt=""/><br /><sub><b>Felipe Hamester</b></sub></a><br /><a href="https://github.com/HamesterFelipe" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/guicavalheiro"><img src="https://avatars0.githubusercontent.com/u/64216011?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Cavalheiro</b></sub></a><br /><a href="https://github.com/guicavalheiro" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/JBannura"><img src="https://avatars0.githubusercontent.com/u/48581102?v=4" width="100px;" alt=""/><br /><sub><b>Jamil Bannura</b></sub></a><br /><a href="https://github.com/JBannura" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/loureqdsz"><img src="https://avatars.githubusercontent.com/u/48070657?s=400&u=4d80271644108cb653e48e7f4280ea46125740d1&v=4" width="100px;" alt=""/><br /><sub><b>Lourenço Souza</b></sub></a><br /><a href="https://github.com/Slamss" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LucasSusin"><img src="https://avatars.githubusercontent.com/u/39033196?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Simon Susin</b></sub></a><br /><a href="https://github.com/LucasSusin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/henriquederlam"><img src="https://avatars.githubusercontent.com/u/101577014?v=4" width="100px;" alt=""/><br /><sub><b>Henrique Derlam</b></sub></a><br /><a href="https://github.com/henriquederlam" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kevinribas"><img src="https://avatars.githubusercontent.com/u/50385593?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Ribas</b></sub></a><br /><a href="https://github.com/kevinribas" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/loureqdsz"><img src="https://avatars.githubusercontent.com/u/48070657?s=400&u=4d80271644108cb653e48e7f4280ea46125740d1&v=4" width="100px;" alt=""/><br /><sub><b>Lourenço Souza</b></sub></a><br /><a href="https://github.com/loureqdsz" title="Code">💻</a></td>
   </tr>
 </table>
