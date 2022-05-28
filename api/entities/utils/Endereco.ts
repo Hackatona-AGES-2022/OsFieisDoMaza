@@ -1,4 +1,4 @@
-import Uf from './Enums/Uf'
+import Uf from '../enums/Uf'
 export class Endereco{
     
     private cidade: string;

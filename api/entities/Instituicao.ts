@@ -1,4 +1,4 @@
-import {Endereco} from './Endereco'
+import {Endereco} from './utils/Endereco'
 
 class Instituicao {
     
