@@ -3,7 +3,7 @@
 <h1>   </h1>
 <p align="center"> 
   <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza">
-    <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
+    <img src="https://user-images.githubusercontent.com/50385593/170808817-722c4e0c-cb9f-420f-b945-3b3f26bf9cf2.png" alt="Logo" width="260" height="260">
   </a>
   
   <h3 align="center">Os Fiéis da Maza</h3>  
@@ -33,7 +33,7 @@
 
 # Sumário :page_with_curl:
 - [Sumário :page_with_curl:](#sumário-page_with_curl)
-- [Instação :heavy_check_mark:](#instação-heavy_check_mark)
+- [Instalação :heavy_check_mark:](#instalação-heavy_check_mark)
 - [Arquitetura :hammer:](#arquitetura-hammer)
     - [Diagrama de Componente](#diagrama-de-componente)
     - [Tecnologia Utilizada](#tecnologia-utilizada)
@@ -45,7 +45,7 @@
     - [GitHub Project](#github-project)
 - [Colaboradores :mortar_board:](#colaboradores-mortar_board)
 
-# Instação :heavy_check_mark:
+# Instalação :heavy_check_mark:
 Para realizar a isntalação e conseguir rodar o projeto localmente, basta você fazer o clone deste repositório:
 ```shell
 git clone 'LINK DO NOSSO REPO'
