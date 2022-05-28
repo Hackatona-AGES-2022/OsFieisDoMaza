@@ -4,9 +4,6 @@
 import { useRef } from "react";
 
 import Button from "../../components/Button";
-import Gallery from "../../components/Gallery";
-import { ArrowRight, ArrowLeft } from "../../components/Gallery/styles";
-import Icon from "../../components/Icon";
 import CardMedico from "../../components/MedicoCard";
 import { GlobalStyles } from "../../styles/globalstyles";
 import {
@@ -23,11 +20,8 @@ import {
     DivProblemSolution,
     SecondSubTitle,
     TextMars,
-    GalleryContent,
     ContainerAbout,
     TextLogo,
-    DivLogo,
-    TextSubscribe,
     SectionForm,
     SectionFooter,
     DivImageFish,
