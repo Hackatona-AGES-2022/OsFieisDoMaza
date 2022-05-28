@@ -186,7 +186,14 @@ function App() {
                     </DivImageFish>
 
                     <DivFooterBottom>
-                        <Logo />
+                        <div>
+                            <Logo />
+                        </div>
+
+                        <TextLogo>
+                            Corporis ut aliquid qui molestiae. Sed laborum sunt
+                            recusandae animi dolore voluptates.
+                        </TextLogo>
 
                         <DivSocial>
                             <img src="/images/instagram.svg" alt="" />

@@ -79,20 +79,18 @@ export const Subtitle = styled.p`
 `;
 
 export const InkGuy = styled.image`
-    width: ${pixelToRem(472)};
+    width: ${pixelToRem(550)};
     height: ${pixelToRem(600)};
     position: absolute;
     background-image: url("/images/open-doodles-dancing_1.png");
     background-repeat: no-repeat;
     right: 0;
+    margin-right: 20px;
+    margin-top: 50px;
     top: ${pixelToRem(10)};
 
     @media (max-width: ${pixelToRem(1200)}) {
-        position: relative;
-        order: 4;
-        width: ${pixelToRem(472)};
-        height: ${pixelToRem(600)};
-        left: 0;
+        display: none;
     }
 `;
 
@@ -178,7 +176,9 @@ export const SectionFooter = styled.div`
 `;
 
 export const DivImageFish = styled(motion.div)`
-    width: 20%;
+    align-self: flex-end;
+    padding-right: 3%;
+    width: 30%;
     & img {
         width: 100%;
     }
