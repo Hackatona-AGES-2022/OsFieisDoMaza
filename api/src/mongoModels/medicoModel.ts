@@ -7,10 +7,11 @@ export interface medicoDocument extends MedicoInput, mongoose.Document {
 
 const medicoSchema = new mongoose.Schema({
     nome: {type: String, required: true},
-    email: {type: String, required: true},
+    email: {type: String, required: true, unique: true},
     genero: {type: String, enum: ['Masculino', 'Feminino', 'Outro'], required: true},
-    registro: {type: Number, required: true}, // CRM/CFP/CRP
-    senha: {type: String, required: true}
+    registro: {type: Number, required: true, unique: true}, // CRM/CFP/CRP
+    agenda: {type: Array, required: false, default: []},
+    cognitoId: {type: String, required: true, unique: true}
 }, {
     versionKey: false
 });

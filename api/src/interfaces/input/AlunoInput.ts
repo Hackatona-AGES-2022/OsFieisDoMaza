@@ -1,9 +1,9 @@
 import {Genero} from "../../enums/genero";
 
-export interface MedicoInput {
+export interface AlunoInput {
+    cpf:string;
     nome:string;
-    email:string;
+    dataNascimento:Date;
     genero:Genero;
-    registro:string // CRM/CFP/CRP
     cognitoId:string;
 }
