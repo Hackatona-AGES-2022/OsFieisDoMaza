@@ -75,9 +75,8 @@ O Diagrama de componentes tem como objetivo apresentar uma ideia geral da estrut
 </p>
 
 ### Tecnologia Utilizada
-A tecnologia escolhida foi Flutter. A documentação completa da tecnologia se encontra em: www.flutter.dev/
 <br />
-<img src="images/logo-flutter.png" alt="Logo" width="860" height="200">
+<img src="" alt="Logo" width="860" height="200">
 <br />
 
 ### Fluxo do usuário
@@ -111,31 +110,6 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 </p>
 
 # Telas Desenvolvidas :computer: 
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/inicio1.PNG">
-    <img src="images/inicio1.PNG" alt="Logo" width="433" height="885">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/cadastroUsuario2.PNG">
-    <img src="images/cadastroUsuario2.PNG" alt="Logo" width="433" height="880">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/cadastroOrg-3.PNG">
-    <img src="images/cadastroOrg-3.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/loginPage-7.PNG">
-    <img src="images/loginPage-7.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/homeUsuario-4.PNG">
-    <img src="images/homeUsuario-4.PNG" alt="Logo" width="433" height="883">
-  </a>  
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/homePerfil-5.PNG">
-    <img src="images/homePerfil-5.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/descricaoDoacao-6.PNG">
-    <img src="images/descricaoDoacao-6.PNG" alt="Logo" width="433" height="883">
-  </a>
-</p>
-
 # Requisitos :book:
 ### User Stories
 |User Story|Descrição|Tamanho|
