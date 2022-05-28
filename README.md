@@ -15,10 +15,10 @@
     <br />
     <br />
     <p align="justify">
-     <strong>PROBLEMA.  </strong> Em função da pandemia, a desigualdade social foi agravada no país, colocando pessoas que já estavam em situações precárias em um beco sem saída, não tendo a quem recorrer.
+     <strong>PROBLEMA.  </strong> 
     <br />
     <br />
-    <strong>SOLUÇÃO.  </strong> Um aplicativo de apoio para causas sociais durante e pós pandemia, auxiliando na recuperação de comunidades carentes que foram afetadas pelo vírus através de organizações que já ajudam ou pretendem ajudar, com foco em fornecer um feedback para os doadores.
+    <strong>SOLUÇÃO.  </strong> 
     </p>
   </p>
 </p>
@@ -72,9 +72,8 @@ O Diagrama de componentes tem como objetivo apresentar uma ideia geral da estrut
 </p>
 
 ### Tecnologia Utilizada
-A tecnologia escolhida foi Flutter. A documentação completa da tecnologia se encontra em: www.flutter.dev/
 <br />
-<img src="images/logo-flutter.png" alt="Logo" width="860" height="200">
+<img src="" alt="Logo" width="860" height="200">
 <br />
 
 ### Fluxo do usuário
@@ -108,47 +107,11 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 </p>
 
 # Telas Desenvolvidas :computer: 
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/inicio1.PNG">
-    <img src="images/inicio1.PNG" alt="Logo" width="433" height="885">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/cadastroUsuario2.PNG">
-    <img src="images/cadastroUsuario2.PNG" alt="Logo" width="433" height="880">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/cadastroOrg-3.PNG">
-    <img src="images/cadastroOrg-3.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/loginPage-7.PNG">
-    <img src="images/loginPage-7.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/homeUsuario-4.PNG">
-    <img src="images/homeUsuario-4.PNG" alt="Logo" width="433" height="883">
-  </a>  
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/homePerfil-5.PNG">
-    <img src="images/homePerfil-5.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/descricaoDoacao-6.PNG">
-    <img src="images/descricaoDoacao-6.PNG" alt="Logo" width="433" height="883">
-  </a>
-</p>
-
 # Requisitos :book:
 ### User Stories
 |User Story|Descrição|Tamanho|
-|---|---|---|
-|US1| Eu como usuário quero me cadastrar como doador.|P|
-|US2| Eu como usuário quero me cadastrar como organização.|P|
-|US3| Eu como organização quero criar uma ação social.|M|
-|US4| Eu como organização gostaria de fornecer um feedback sobre a ação social para meus doadores.|M|
-|US5| Eu como apoiador gostaria de fazer uma pesquisa com filtros.|M|
-|US6| Eu como doador gostaria de visualizar como está o progresso de doações recebidas da instituição.|M|
-|US7| Eu como doador gostaria de fazer uma doação para ajudar uma instituição.|M|
-
 ### Trello
-O trello foi utilizado para organizar as tarefas da equipe.
-<img src="images/trello.png" alt="Logo" width="1300" height="570">
-
+Utilizamos o Github Project
 # Colaboradores :mortar_board:
 <table>
   <tr>
