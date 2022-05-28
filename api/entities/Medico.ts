@@ -1,6 +1,6 @@
 import Sexo from "./Enums/Sexo";
 
-class Medico {
+export class Medico {
     private sexo:Sexo;
     private nome:string;
     private dataNascimento:Date;
