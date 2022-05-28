@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import { Amplify, Auth } from "aws-amplify";
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
 function RegisterProfessional() {
@@ -17,6 +18,8 @@ function RegisterProfessional() {
         aws_user_pools_id: "us-west-2_IZxTgoLSF",
         aws_user_pools_web_client_id: "hurld44tjiqe3h3876a4vk3t8",
     });
+
+    const navigate = useNavigate();
 
     const [gender, setGender] = React.useState("");
 
@@ -52,6 +55,7 @@ function RegisterProfessional() {
                     "custom:crmcrp": code,
                 },
             });
+            navigate("/register/professional/confirm");
         } catch (error) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const valor: any = error;

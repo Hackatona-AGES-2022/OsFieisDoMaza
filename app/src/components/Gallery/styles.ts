@@ -4,19 +4,35 @@ import pixelToRem from "../../utils/pxToRem";
 
 const swiper = keyframes`
 
+
+
   from {
+
+
 
     transform: translateX(0%)
 
+
+
   }
+
+
+
+
 
 
 
   to {
 
+
+
     transform: translateX(100%)
 
+
+
   }
+
+
 
 `;
 

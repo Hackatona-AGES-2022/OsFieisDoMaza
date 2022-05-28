@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import { Amplify, Auth } from "aws-amplify";
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./styles.css";
 
@@ -16,10 +17,12 @@ function RegisterStudent() {
     Amplify.configure({
         aws_cognito_region: "us-west-2",
 
-        aws_user_pools_id: "us-west-2_DiIQvHS4z",
+        aws_user_pools_id: "us-west-2_9NVDM08CD",
 
-        aws_user_pools_web_client_id: "169qel7fgq00ahbsth91ps3nj6",
+        aws_user_pools_web_client_id: "6447gbdi0emub6faek29j50oal",
     });
+
+    const navigate = useNavigate();
 
     const [gender, setGender] = React.useState("");
 
@@ -42,7 +45,8 @@ function RegisterStudent() {
         const birthdate = (
             document.getElementById("birthdate") as HTMLInputElement
         ).value;
-        const cpf = (document.getElementById("cpf") as HTMLInputElement).value;
+        const cpfcpf = (document.getElementById("cpf") as HTMLInputElement)
+            .value;
 
         const password = (
             document.getElementById("password") as HTMLInputElement
@@ -50,7 +54,7 @@ function RegisterStudent() {
 
         try {
             await Auth.signUp({
-                username: cpf,
+                username: cpfcpf,
 
                 // eslint-disable-next-line object-shorthand
 
@@ -66,9 +70,10 @@ function RegisterStudent() {
                     gender,
 
                     birthdate,
-                    "custom:crmcrp": cpf,
+                    "custom:cpfcpf": cpfcpf,
                 },
             });
+            navigate("/register/student/confirm");
         } catch (error) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
 
