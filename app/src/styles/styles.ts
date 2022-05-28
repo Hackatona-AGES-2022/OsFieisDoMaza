@@ -181,9 +181,8 @@ export const FirstTitle = styled.div`
 `;
 
 export const FirstTitleMedicos = styled.div`
-    margin-left: 175px;
+    margin-left: 140px;
     margin-bottom: 45px;
-    margin-left: 100px;
     margin-bottom: 45px;
     @media (max-width: ${pixelToRem(1200)}) {
         display: none;
@@ -288,8 +287,7 @@ export const TextRights = styled.p`
     color: white;
     font-weight: bold;
     padding-top: ${pixelToRem(26)};
-    text-align: center;
-
+    text-align: flex-start;
     & span {
         font-weight: bold;
     }
@@ -332,6 +330,7 @@ export const ContainerPsycolo = styled.div<GalleryFlexContainerProps>`
     justify-content: ${(props) => props.justifyContent};
     width: ${(props) => props.width};
     margin-bottom: ${pixelToRem(160)};
+    margin-left: 40px;
     gap: ${pixelToRem(200)};
 `;
 
