@@ -6,12 +6,10 @@ import { useState } from "react";
 import {
     Container,
     Header,
-    Amp,
     UserDiv,
     RightSideOptions,
     ButtonTerciario,
     ButtonQuartenario,
-    ConsultasAgendadas,
 } from "./styles/styles";
 import { UserStyles } from "./styles/userStyles";
 import pixelToRem from "./utils/pxToRem";
@@ -39,10 +37,7 @@ function Doctor() {
                 </RightSideOptions>
             </Header>
 
-            <UserDiv>
-                <ConsultasAgendadas />
-                <Amp />
-            </UserDiv>
+            <UserDiv />
         </Container>
     );
 }
