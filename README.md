@@ -125,6 +125,8 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 |US9| Eu, como aluno, gostaria de poder me conectar na plataforma.|P|
 |US10| Eu, como aluno, gostaria de poder visualizar os profissionais disponíveis.|M|
 |US11| Eu, como aluno, gostaria de poder visualizar mais informações de um profissional específico.|M|
+|US12| Eu, como aluno, gostaria de poder agendar um horário com o profissional escolhido.|M|
+|US13| Eu, como aluno, gostaria de poder visualizar os meus horários marcados com o respectivo profissional.|M|
 
 ### GitHub Project
 O GitHub Project foi utilizado para organizar as tarefas (issues) da equipe.
