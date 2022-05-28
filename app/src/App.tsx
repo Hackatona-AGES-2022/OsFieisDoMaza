@@ -7,6 +7,7 @@ import Button from "./components/Button";
 import Gallery from "./components/Gallery";
 import { ArrowRight, ArrowLeft } from "./components/Gallery/styles";
 import Icon from "./components/Icon";
+import CardMedico from "./components/MedicoCard";
 import { GlobalStyles } from "./styles/globalstyles";
 import {
     Container,
@@ -40,11 +41,54 @@ import {
     ButtonLanguage,
     TextRights,
     CustomA,
+    SectionPsycolo,
+    ContainerPsycolo,
+    FirstTitleMedicos,
+    DivDoctors,
 } from "./styles/styles";
 import pixelToRem from "./utils/pxToRem";
 
 const scrollToRef = (ref: any) => window.scrollTo(0, ref.current.offsetTop);
 // General scroll to element function
+
+const response = [
+    {
+        id: 1,
+        nome: "Johnny",
+        endereco: "Endereço: Rua Afonto Taunay, 190",
+        horaVaga: "Horarios: 11:00 - 11:30 - 12:00 - 12:30",
+    },
+    {
+        id: 2,
+        nome: "Jenny",
+        endereco: "Endereço: Rua dos Andradas, 776",
+        horaVaga: "Horarios: 11:00 - 11:30 - 12:00 - 12:30",
+    },
+    {
+        id: 3,
+        nome: "Sam",
+        endereco: "Endereço: Rua General Portinho, 990",
+        horaVaga: "Horarios: 11:00 - 11:30 - 12:00 - 12:30",
+    },
+    {
+        id: 4,
+        nome: "Dean",
+        endereco: "Endereço: Rua Jose Siqueira, 881",
+        horaVaga: "Horarios: 11:00 - 11:30 - 12:00 - 12:30",
+    },
+    {
+        id: 5,
+        nome: "Don",
+        endereco: "Endereço: Av Ipiranga, 8861",
+        horaVaga: "Horarios: 11:00 - 11:30 - 12:00 - 12:30",
+    },
+    {
+        id: 6,
+        nome: "Dun",
+        endereco: "Endereço: Rua General Camara, 1200",
+        horaVaga: "Horarios: 11:00 - 11:30 - 12:00 - 12:30",
+    },
+];
 
 function App() {
     const myRef = useRef(null);
@@ -158,6 +202,51 @@ function App() {
                 </Container>
             </SectionAbout>
 
+            <SectionPsycolo ref={myRef} flex="column">
+                <Container width="100%">
+                    <ContainerPsycolo
+                        width="100%"
+                        alignItems="center"
+                        justifyContent="center"
+                    >
+                        <DivProblemSolution
+                            whileInView="visible"
+                            initial="initial"
+                            viewport={{ once: true }}
+                            variants={{
+                                initial: { opacity: 0, x: 60 },
+
+                                visible: {
+                                    opacity: 1,
+
+                                    x: 0,
+
+                                    transition: { duration: 1, delay: 0.5 },
+                                },
+                            }}
+                        >
+                            <FirstTitleMedicos>
+                                <img
+                                    src="/images/MedicosPlataformaCompleto.svg"
+                                    alt=""
+                                />
+                            </FirstTitleMedicos>
+
+                            <DivDoctors>
+                                {response.map((item: any) => {
+                                    return (
+                                        <CardMedico
+                                            src="/images/image1.png"
+                                            properties={item}
+                                        />
+                                    );
+                                })}
+                            </DivDoctors>
+                        </DivProblemSolution>
+                    </ContainerPsycolo>
+                </Container>
+            </SectionPsycolo>
+
             <SectionForm>
                 <SectionFooter>
                     <DivImageFish
@@ -186,7 +275,7 @@ function App() {
                             inclusão digital e facilitar o acesso de comunidades
                             menos favorecidas à profissionais da saúde mental,
                             proporcionando uma qualidade de vida e bem estar a
-                            todos. Pessoas que estão de bem consigo tendem a ser
+                            todos.
                         </TextLogo>
 
                         <TextRights>©2022 All rights reserved</TextRights>

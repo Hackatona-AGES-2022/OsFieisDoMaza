@@ -114,7 +114,12 @@ export const Main = styled.div`
 `;
 
 export const FirstTitle = styled.div`
-    margin-left: 100px;
+    margin-left: 95px;
+    margin-bottom: 45px;
+`;
+
+export const FirstTitleMedicos = styled.div`
+    margin-left: 175px;
     margin-bottom: 45px;
 `;
 
@@ -152,6 +157,13 @@ export const DivButton = styled.div`
 `;
 
 export const SectionAbout = styled.div<GalleryFlexContainerProps>`
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: ${(props) => props.flex};
+`;
+
+export const SectionPsycolo = styled.div<GalleryFlexContainerProps>`
     display: flex;
     justify-content: center;
     background-color: white;
@@ -226,6 +238,16 @@ export const ContainerAbout = styled.div<GalleryFlexContainerProps>`
     gap: ${pixelToRem(200)};
 `;
 
+export const ContainerPsycolo = styled.div<GalleryFlexContainerProps>`
+    display: flex;
+    flex-direction: ${(props) => props.flex};
+    align-items: ${(props) => props.alignItems};
+    justify-content: ${(props) => props.justifyContent};
+    width: ${(props) => props.width};
+    margin-bottom: ${pixelToRem(160)};
+    gap: ${pixelToRem(200)};
+`;
+
 export const TextLogo = styled.p`
     font: var(--font-heading-3);
     color: white;
@@ -266,7 +288,7 @@ export const DivFooterBottom = styled.div`
     align-self: flex-end;
     margin-right: 150px;
     position: relative;
-    top: 368px;
+    top: 348px;
 `;
 
 export const DivSocial = styled.div`
@@ -306,4 +328,12 @@ export const LogoFooter = styled.div`
 
 export const CustomA = styled.a`
     cursor: pointer;
+`;
+
+export const DivDoctors = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 `;
