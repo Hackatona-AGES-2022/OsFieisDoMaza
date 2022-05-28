@@ -48,11 +48,11 @@
 # Instalação :heavy_check_mark:
 Para realizar a isntalação e conseguir rodar o projeto localmente, basta você fazer o clone deste repositório:
 ```shell
-git clone 'LINK DO NOSSO REPO'
+git clone https://github.com/Hackatona-AGES-2022/OsFieisDoMaza.git
 ```
-Entrar na pasta X:
+Entrar na pasta app/
 ```shell
-cd 'FOLDER DO NOSSO REPO'
+cd app/
 ```
 Rodar a instalação das dependências do projeto:
 ```shell
@@ -60,7 +60,7 @@ yarn install
 ```
 Iniciar o projeto com o seguinte comando:
 ```shell
-npm start
+yarn start
 ```
 Após realizar esse passo a passo, o projeto já está disponível para executar e pode ser acessado pelo link: https://localhost:3000
 
