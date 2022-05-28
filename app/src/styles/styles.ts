@@ -44,6 +44,7 @@ export const Header = styled.div`
     align-items: center;
     justify-content: end;
     padding-bottom: ${pixelToRem(35)};
+    gap: 20px;
 `;
 
 export const RightSideOptions = styled.div`
@@ -146,6 +147,12 @@ export const UserInk = styled.image<GalleryFlexContainerProps>`
     background-image: url("/images/02.svg");
 `;
 
+export const MyConsults = styled.image<GalleryFlexContainerProps>`
+    width: ${pixelToRem(600)};
+    height: ${pixelToRem(180)};
+    background-image: url("/images/MINHAS_CONSULTAS.svg");
+`;
+
 export const Main = styled.div`
     display: flex;
     flex-direction: column;
@@ -155,7 +162,16 @@ export const Main = styled.div`
 export const UserDiv = styled.div`
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    margin-left: -50px;
+`;
+
+export const Left = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    @media (max-width: ${pixelToRem(1200)}) {
+        display: none;
+    }
 `;
 
 export const FirstTitle = styled.div`
@@ -171,6 +187,18 @@ export const SecondTitle = styled.p`
     color: white;
     font-weight: 100;
     width: 600px;
+    @media (max-width: ${pixelToRem(800)}) {
+        width: 400px;
+    }
+`;
+
+export const UserName = styled.p`
+    font: 800 40px "Heebo", sans-serif;
+    color: #49cccc;
+    font-weight: bold;
+    width: 600px;
+    margin-left: 200px;
+    margin-bottom: 10px;
     @media (max-width: ${pixelToRem(800)}) {
         width: 400px;
     }
@@ -378,4 +406,24 @@ export const CustomA = styled.a`
 export const GreyTable = styled.div`
     display: flex;
     background-color: #f6f6f6;
+    width: 1000px;
+    margin-left: 30px;
+    border-radius: 30px;
+`;
+
+export const GreenTable = styled.div`
+    display: flex;
+    background-color: #49cccc;
+    width: 100%;
+    margin: 20px;
+    border-radius: 20px;
+`;
+
+export const WhiteTable = styled.div`
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
 `;
