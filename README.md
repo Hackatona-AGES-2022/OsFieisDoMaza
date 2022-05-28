@@ -3,9 +3,9 @@
 <h1>   </h1>
 <p align="center"> 
   <a href="https://github.com/HACKATONA-ES-2022/OsFieisDoMaza">
-    <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
+    <img src="https://user-images.githubusercontent.com/50385593/170811169-2671bb32-fc81-456b-a802-9bcb7045e8f2.png" alt="Logo" width="260" height="260">
   </a>
-  
+
   <h3 align="center">Os Fiéis da Maza</h3>  
   
   <p align="center">
@@ -114,13 +114,17 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 ### User Stories
 |User Story|Descrição|Tamanho|
 |---|---|---|
-|US1| Eu como usuário quero me cadastrar como doador.|P|
-|US2| Eu como usuário quero me cadastrar como organização.|P|
-|US3| Eu como organização quero criar uma ação social.|M|
-|US4| Eu como organização gostaria de fornecer um feedback sobre a ação social para meus doadores.|M|
-|US5| Eu como apoiador gostaria de fazer uma pesquisa com filtros.|M|
-|US6| Eu como doador gostaria de visualizar como está o progresso de doações recebidas da instituição.|M|
-|US7| Eu como doador gostaria de fazer uma doação para ajudar uma instituição.|M|
+|US1| Eu, como profissional da saúde, gostaria de poder me cadastrar na plataforma.|P|
+|US2| Eu, como profissional da saúde, gostaria de poder registrar meus horários de atendimento disponíveis.|P|
+|US3| Eu, como profissional da saúde, gostaria de poder definir as regiões nas quais eu posso atender.|M|
+|US4| Eu, como profissional da saúde, gostaria de poder escrever uma breve descrição sobre mim.|P|
+|US5| Eu, como profissional da saúde, gostaria de poder visualizar os meus pacientes e seus respectivos dados.|M|
+|US6| Eu, como instituição, gostaria de poder me cadastrar na plataforma.|P|
+|US7| Eu, como instituição, gostaria de registrar possíveis alunos.|P|
+|US8| Eu, como instituição, gostaria de visualizar os alunos registrados.|P|
+|US9| Eu, como aluno, gostaria de poder me conectar na plataforma.|P|
+|US10| Eu, como aluno, gostaria de poder visualizar os profissionais disponíveis.|M|
+|US11| Eu, como aluno, gostaria de poder visualizar mais informações de um profissional específico.|M|
 
 ### GitHub Project
 O GitHub Project foi utilizado para organizar as tarefas (issues) da equipe.
