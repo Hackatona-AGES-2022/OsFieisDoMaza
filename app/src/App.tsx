@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Doctor from "./Doctor";
+import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import ProfessionalHome from "./pages/ProfessionalHome/ProfessionalHome";
 import ConfirmProfessional from "./pages/RegisterProfessional/ConfirmProfessional";
@@ -8,12 +10,13 @@ import RegisterProfessional from "./pages/RegisterProfessional/RegisterProfessio
 import ConfirmStudent from "./pages/RegisterStudent/ConfirmStudent";
 import RegisterStudent from "./pages/RegisterStudent/RegisterStudent";
 import StudentHome from "./pages/StudentHome/StudentHome";
+import User from "./User";
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<RegisterStudent />} />
+                <Route path="/" element={<Home />} />
 
                 <Route path="/register/student" element={<RegisterStudent />} />
 
@@ -34,12 +37,9 @@ function App() {
 
                 <Route path="/login" element={<Login />} />
 
-                <Route path="/home/student" element={<StudentHome />} />
+                <Route path="/home/student" element={<User />} />
 
-                <Route
-                    path="/home/professional"
-                    element={<ProfessionalHome />}
-                />
+                <Route path="/home/professional" element={<Doctor />} />
             </Routes>
         </BrowserRouter>
     );
