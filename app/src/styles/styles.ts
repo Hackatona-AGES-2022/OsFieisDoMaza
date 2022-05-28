@@ -220,3 +220,7 @@ export const LogoFooter = styled.div`
     margin-left: 200px;
     width: 600px;
 `;
+
+export const CustomA = styled.a`
+    cursor: pointer;
+`;
