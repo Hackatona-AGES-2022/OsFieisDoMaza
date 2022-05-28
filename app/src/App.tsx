@@ -14,21 +14,28 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<RegisterStudent />} />
+
                 <Route path="/register/student" element={<RegisterStudent />} />
+
                 <Route
                     path="/register/professional"
                     element={<RegisterProfessional />}
                 />
+
                 <Route
                     path="/register/student/confirm"
                     element={<ConfirmStudent />}
                 />
+
                 <Route
                     path="/register/professional/confirm"
                     element={<ConfirmProfessional />}
                 />
+
                 <Route path="/login" element={<Login />} />
+
                 <Route path="/home/student" element={<StudentHome />} />
+
                 <Route
                     path="/home/professional"
                     element={<ProfessionalHome />}

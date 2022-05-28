@@ -4,7 +4,7 @@ import { ButtonProps } from ".";
 import pixelToRem from "../../utils/pxToRem";
 
 export const ButtonComponent = styled.button<ButtonProps>`
-    background: var(--mars);
+    background: white;
 
     width: ${({ fullWidth }) => (fullWidth ? "100%" : pixelToRem(200))};
 
@@ -12,7 +12,7 @@ export const ButtonComponent = styled.button<ButtonProps>`
 
     border: none;
 
-    border-radius: ${pixelToRem(6)};
+    border-radius: 28px;
 
     color: var(--text);
 
