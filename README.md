@@ -68,9 +68,9 @@ Após realizar esse passo a passo, o projeto já está disponível para executar
 # Arquitetura :hammer:
 ### Diagrama de Fluxo
 O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturação dos componentes macro da aplicação - no caso, as telas do sistema -, mostrando como estão dispostos e com quais outros componentes interagem.
-<p align="center">
-  ![Diagrama em branco](https://user-images.githubusercontent.com/69119889/170841162-8aa54590-8862-4f14-aebd-ab081ff42da6.jpeg)
-</p>
+
+![Diagrama em branco](https://user-images.githubusercontent.com/69119889/170842277-f906e896-2288-41c3-bcc6-37eed31f9ea1.jpeg)
+
 
 ### Tecnologia Utilizadas
 <ul>
@@ -88,11 +88,8 @@ O Diagrama de fluxo tem como objetivo apresentar uma ideia geral da estruturaç�
 ### Fluxo do usuário
 O fluxo de usuário é uma técnica que te permite mapear todo fluxo de telas do seu site ou aplicativo de forma simples. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
 
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/fluxo_do_usuario.jpeg">
-    <img src="images/sla.jpeg" alt="Logo" width="777" height="403">
-  </a>
-</p>
+![sla](https://user-images.githubusercontent.com/69119889/170842299-bdab56b0-fa95-4195-a52c-20885481d8f5.jpeg)
+
 
 # Mockups :pencil2:
 Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo aplicativo [Figma](https://www.figma.com/), que permite o desenvolvimento fidedigno para apresentação do projeto ao stakeholder, e posteriormente, esses mockups servem para auxiliar os desenvolvedores no desenvolvimento do aplicativo.
