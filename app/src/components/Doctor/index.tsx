@@ -28,7 +28,7 @@ function Doctor({ name, date }: IDoctor) {
             <FloatChild>
                 <ButtonsDiv>
                     <ButtonCall>Iniciar chamada</ButtonCall>
-                    <ButtonErase>Excluir</ButtonErase>
+                    <ButtonErase>Cancelar</ButtonErase>
                 </ButtonsDiv>
             </FloatChild>
         </Wrap>

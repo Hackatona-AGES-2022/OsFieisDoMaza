@@ -52,4 +52,5 @@ export const ButtonErase = styled.div`
     margin-left: 30px;
     color: white;
     cursor: pointer;
+    font-size: 10px;
 `;
