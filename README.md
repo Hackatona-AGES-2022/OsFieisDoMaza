@@ -56,7 +56,7 @@ cd 'FOLDER DO NOSSO REPO'
 ```
 Rodar a instalação das dependências do projeto:
 ```shell
-npm install
+yarn install
 ```
 Iniciar o projeto com o seguinte comando:
 ```shell
