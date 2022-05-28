@@ -28,6 +28,7 @@ import {
     DivFooterBottom,
     DivSocial,
     DivFooterMenu,
+    LogoFooter,
 } from "./styles/styles";
 import pixelToRem from "./utils/pxToRem";
 
@@ -56,11 +57,12 @@ function App() {
                 </Header>
 
                 <Main>
+                    <Logo />
                     <SecondTitle>
-                        Encontre um psicólogo para ajudar você <span>.</span>
+                        ENCONTRE UM PSICÓLOGO PARA AUXILIAR VOCÊ
                     </SecondTitle>
 
-                    <Subtitle>De qualquer lugar!</Subtitle>
+                    <Subtitle>DE QUALQUER LUGAR!</Subtitle>
 
                     <InkGuy />
 
@@ -182,19 +184,18 @@ function App() {
                             },
                         }}
                     >
-                        <img src="/images/fish.png" alt="" />
+                        <img src="/images/fishsvg.svg" alt="" />
                     </DivImageFish>
 
-                    <DivFooterBottom>
-                        <div>
-                            <Logo />
-                        </div>
-
+                    <LogoFooter>
+                        <Logo />
                         <TextLogo>
                             Corporis ut aliquid qui molestiae. Sed laborum sunt
                             recusandae animi dolore voluptates.
                         </TextLogo>
+                    </LogoFooter>
 
+                    <DivFooterBottom>
                         <DivSocial>
                             <img src="/images/instagram.svg" alt="" />
 

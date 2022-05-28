@@ -40,20 +40,19 @@ export const Container = styled.div<GalleryFlexContainerProps>`
 
 export const Header = styled.div`
     display: flex;
-    padding-bottom: ${pixelToRem(95)};
+    padding-bottom: ${pixelToRem(35)};
 `;
 
 export const Logo = styled.image<GalleryFlexContainerProps>`
     width: ${pixelToRem(300)};
     height: ${pixelToRem(300)};
-    background-image: url("/images/logo.png");
+    background-image: url("/images/logosvg.svg");
 `;
 
 export const Main = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: ${pixelToRem(815)};
-    padding-bottom: ${pixelToRem(103)};
+    max-width: ${pixelToRem(605)};
 `;
 
 export const FirstTitle = styled.div`
@@ -64,17 +63,14 @@ export const FirstTitle = styled.div`
 `;
 
 export const SecondTitle = styled.p`
-    color: var(--text);
-    font: var(--font-display);
-
-    span {
-        color: var(--mars);
-    }
+    font: 800 40px "Heebo", sans-serif;
+    color: white;
+    font-weight: 100;
 `;
 
 export const Subtitle = styled.p`
-    color: var(--gray-05);
-    font: var(--font-heading-3);
+    color: rgba(225, 236, 214, 1);
+    font: var(--font-heading-1);
     max-width: ${pixelToRem(728)};
 `;
 
@@ -82,14 +78,14 @@ export const InkGuy = styled.image`
     width: ${pixelToRem(550)};
     height: ${pixelToRem(600)};
     position: absolute;
-    background-image: url("/images/open-doodles-dancing_1.png");
+    background-image: url("/images/inkguysvg.svg");
     background-repeat: no-repeat;
     right: 0;
-    margin-right: 20px;
-    margin-top: 50px;
+    margin-right: 100px;
+    margin-top: 110px;
     top: ${pixelToRem(10)};
 
-    @media (max-width: ${pixelToRem(1200)}) {
+    @media (max-width: ${pixelToRem(1300)}) {
         display: none;
     }
 `;
@@ -152,8 +148,8 @@ export const ContainerAbout = styled.div<GalleryFlexContainerProps>`
 `;
 
 export const TextLogo = styled.p`
-    font: var(--font-heading-1);
-    color: var(--text);
+    font: var(--font-heading-2);
+    color: white;
 `;
 
 export const TextSubscribe = styled(motion.p)`
@@ -167,7 +163,6 @@ export const SectionForm = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-around;
 `;
 
 export const SectionFooter = styled.div`
@@ -177,6 +172,7 @@ export const SectionFooter = styled.div`
 
 export const DivImageFish = styled(motion.div)`
     align-self: flex-end;
+    position: absolute;
     padding-right: 3%;
     width: 30%;
     & img {
@@ -186,13 +182,14 @@ export const DivImageFish = styled(motion.div)`
 
 export const DivFooterBottom = styled.div`
     display: flex;
-    justify-content: space-around;
+    position: absolute;
+    align-self: flex-end;
+    margin-right: 150px;
 `;
 
 export const DivSocial = styled.div`
     display: flex;
     gap: ${pixelToRem(20)};
-
     & img {
         width: ${pixelToRem(25)};
         height: ${pixelToRem(25)};
@@ -209,8 +206,17 @@ export const DivFooterMenu = styled.div`
     }
 
     & a {
-        color: var(--text);
+        color: white;
         font: var(--text-3);
         text-decoration: none;
     }
+`;
+
+export const LogoFooter = styled.div`
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 200px;
+    width: 600px;
 `;
