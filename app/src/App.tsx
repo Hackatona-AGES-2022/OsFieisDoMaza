@@ -27,19 +27,24 @@ import {
     DivImageFish,
     DivFooterBottom,
     DivSocial,
-    DivFooterMenu,
+    MiddleOptions,
+    RightSideOptions,
     LogoFooter,
+    ButtonPrimario,
+    ButtonSecundario,
+    ButtonLanguage,
+    TextRights,
 } from "./styles/styles";
 import pixelToRem from "./utils/pxToRem";
 
 function App() {
     return (
         <>
-            <Container flex="column" margin={pixelToRem(24, 112, 50)}>
+            <Container flex="column" margin={pixelToRem(24, 50, 50)}>
                 <GlobalStyles />
 
                 <Header>
-                    <DivFooterMenu>
+                    <MiddleOptions>
                         <ul>
                             <li>
                                 <a href="/">Tela Inicial</a>
@@ -50,10 +55,22 @@ function App() {
                             </li>
 
                             <li>
-                                <a href="/search">Psicólogos</a>
+                                <a href="/search">Profissionais</a>
                             </li>
                         </ul>
-                    </DivFooterMenu>
+                    </MiddleOptions>
+                    <RightSideOptions>
+                        <ButtonPrimario>
+                            <a href="/">Criar conta</a>
+                        </ButtonPrimario>
+                        <ButtonSecundario>
+                            <a href="/">Entrar</a>
+                        </ButtonSecundario>
+                        <ButtonLanguage>
+                            <a href="/">BR</a>
+                            <img src="/images/ArrowDown.svg" alt="" />
+                        </ButtonLanguage>
+                    </RightSideOptions>
                 </Header>
 
                 <Main>
@@ -95,16 +112,22 @@ function App() {
                                 },
                             }}
                         >
-                            <FirstTitle>Nosso problema e solução</FirstTitle>
+                            <FirstTitle>
+                                <img
+                                    src="/images/NossaProblemaSolucao.svg"
+                                    alt=""
+                                />
+                            </FirstTitle>
 
                             <SecondSubTitle>
-                                PROBLEMA. Como tornar a internet um local mais
-                                saudável?
+                                <span>PROBLEMA. </span>
+                                Como tornar a internet um local mais saudável?
                             </SecondSubTitle>
 
                             <TextMars>
-                                SOLUÇÃO. Plataforma onde voluntariamente
-                                psicólogos e psiquiatras podem se disponibilizar
+                                <span>SOLUÇÃO. </span>
+                                Plataforma onde voluntariamente psicólogos e
+                                psiquiatras podem se disponibilizar
                                 gratuitamente para realizar consultas online ou
                                 presencial para grupos de pessoas que não
                                 possuem condições financeiras. A plataforma será
@@ -115,55 +138,6 @@ function App() {
                         </DivProblemSolution>
                     </ContainerAbout>
                 </Container>
-
-                <GalleryContent>
-                    <DivLogo
-                        whileInView="visible"
-                        initial="initial"
-                        viewport={{ once: true }}
-                        variants={{
-                            initial: { opacity: 0, x: 60 },
-
-                            visible: {
-                                opacity: 1,
-
-                                x: 0,
-
-                                transition: { duration: 1, delay: 1 },
-                            },
-                        }}
-                    >
-                        <TextLogo>
-                            O caminho para tornar a humanidade multiplanetária
-                            <span>.</span>
-                        </TextLogo>
-
-                        <TextSubscribe
-                            whileInView="visible"
-                            initial="initial"
-                            viewport={{ once: true }}
-                            variants={{
-                                initial: { opacity: 0, y: 100 },
-
-                                visible: {
-                                    opacity: 1,
-
-                                    y: -20,
-
-                                    transition: { duration: 1, delay: 1 },
-                                },
-                            }}
-                        >
-                            Entrar com conta
-                        </TextSubscribe>
-                    </DivLogo>
-
-                    <ArrowLeft />
-
-                    <Gallery />
-
-                    <ArrowRight />
-                </GalleryContent>
             </SectionAbout>
 
             <SectionForm>
@@ -190,9 +164,14 @@ function App() {
                     <LogoFooter>
                         <Logo />
                         <TextLogo>
-                            Corporis ut aliquid qui molestiae. Sed laborum sunt
-                            recusandae animi dolore voluptates.
+                            Nossa Mente tem como objetivo central promover a
+                            inclusão digital e facilitar o acesso de comunidades
+                            menos favorecidas à profissionais da saúde mental,
+                            proporcionando uma qualidade de vida e bem estar a
+                            todos. Pessoas que estão de bem consigo tendem a ser
                         </TextLogo>
+
+                        <TextRights>©2022 All rights reserved</TextRights>
                     </LogoFooter>
 
                     <DivFooterBottom>
