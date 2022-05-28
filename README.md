@@ -6,7 +6,7 @@
     <img src="images/helpouticon.png" alt="Logo" width="260" height="260">
   </a>
   
-  <h3 align="center">HelpOut</h3>  
+  <h3 align="center">Os Fiéis da Maza</h3>  
   
   <p align="center">
     Hackatona 2022 - Engenharia de Software
@@ -15,10 +15,13 @@
     <br />
     <br />
     <p align="justify">
-     <strong>PROBLEMA.  </strong> 
+     <strong>PROBLEMA.  </strong> Como tornar a internet um local mais saudável?
     <br />
     <br />
-    <strong>SOLUÇÃO.  </strong> 
+    <strong>TRILHA.  </strong> Saúde Mental
+    <br />
+    <br />
+    <strong>SOLUÇÃO.  </strong> Plataforma onde voluntariamente psicólogos e psiquiatras podem se disponibilizar gratuitamente para realizar consultas online ou presencial para grupos de pessoas que não possuem condições financeiras. A plataforma será disponibilizada para escolas a fim de auxiliar familiares da comunidade a encontrarem ajuda profissional.
     </p>
   </p>
 </p>
@@ -30,7 +33,7 @@
 
 # Sumário :page_with_curl:
 - [Sumário :page_with_curl:](#sumário-page_with_curl)
-- [Instação :heavy_check_mark:](#instação-heavy_check_mark)
+- [Instalação :heavy_check_mark:](#instalação-heavy_check_mark)
 - [Arquitetura :hammer:](#arquitetura-hammer)
     - [Diagrama de Componente](#diagrama-de-componente)
     - [Tecnologia Utilizada](#tecnologia-utilizada)
@@ -39,10 +42,10 @@
 - [Telas Desenvolvidas :computer:](#telas-desenvolvidas-computer)
 - [Requisitos :book:](#requisitos-book)
     - [User Stories](#user-stories)
-    - [Trello](#trello)
+    - [GitHub Project](#github-project)
 - [Colaboradores :mortar_board:](#colaboradores-mortar_board)
 
-# Instação :heavy_check_mark:
+# Instalação :heavy_check_mark:
 Para realizar a isntalação e conseguir rodar o projeto localmente, basta você fazer o clone deste repositório:
 ```shell
 git clone 'LINK DO NOSSO REPO'
@@ -53,7 +56,7 @@ cd 'FOLDER DO NOSSO REPO'
 ```
 Rodar a instalação das dependências do projeto:
 ```shell
-npm install
+yarn install
 ```
 Iniciar o projeto com o seguinte comando:
 ```shell
@@ -72,9 +75,8 @@ O Diagrama de componentes tem como objetivo apresentar uma ideia geral da estrut
 </p>
 
 ### Tecnologia Utilizada
-A tecnologia escolhida foi Flutter. A documentação completa da tecnologia se encontra em: www.flutter.dev/
 <br />
-<img src="images/logo-flutter.png" alt="Logo" width="860" height="200">
+<img src="" alt="Logo" width="860" height="200">
 <br />
 
 ### Fluxo do usuário
@@ -108,31 +110,6 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 </p>
 
 # Telas Desenvolvidas :computer: 
-<p align="center">
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/inicio1.PNG">
-    <img src="images/inicio1.PNG" alt="Logo" width="433" height="885">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/cadastroUsuario2.PNG">
-    <img src="images/cadastroUsuario2.PNG" alt="Logo" width="433" height="880">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/cadastroOrg-3.PNG">
-    <img src="images/cadastroOrg-3.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/loginPage-7.PNG">
-    <img src="images/loginPage-7.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/homeUsuario-4.PNG">
-    <img src="images/homeUsuario-4.PNG" alt="Logo" width="433" height="883">
-  </a>  
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/homePerfil-5.PNG">
-    <img src="images/homePerfil-5.PNG" alt="Logo" width="433" height="883">
-  </a>
-  <a href="https://github.com/HACKATONA-ES-2020/OsFieisDoMaza/blob/main/images/descricaoDoacao-6.PNG">
-    <img src="images/descricaoDoacao-6.PNG" alt="Logo" width="433" height="883">
-  </a>
-</p>
-
 # Requisitos :book:
 ### User Stories
 |User Story|Descrição|Tamanho|
@@ -145,18 +122,17 @@ Para o desenvolvimento dos mockups, foram usados artefatos disponibilizados pelo
 |US6| Eu como doador gostaria de visualizar como está o progresso de doações recebidas da instituição.|M|
 |US7| Eu como doador gostaria de fazer uma doação para ajudar uma instituição.|M|
 
-### Trello
-O trello foi utilizado para organizar as tarefas da equipe.
-<img src="images/trello.png" alt="Logo" width="1300" height="570">
+### GitHub Project
+O GitHub Project foi utilizado para organizar as tarefas (issues) da equipe.
 
 # Colaboradores :mortar_board:
 <table>
   <tr>
     <td align="center"><a href="https://github.com/brun0-znx"><img src="https://avatars.githubusercontent.com/u/69119889?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Chanan</b></sub></a><br /><a href="https://github.com/brun0-znx" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/FranciscoJLucca"><img src="https://avatars0.githubusercontent.com/u/48070476?v=4" width="100px;" alt=""/><br /><sub><b>Francisco João Lucca Neto</b></sub></a><br /><a href="https://github.com/FranciscoJLucca" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/HamesterFelipe"><img src="https://avatars0.githubusercontent.com/u/57925329?v=4" width="100px;" alt=""/><br /><sub><b>Felipe Hamester</b></sub></a><br /><a href="https://github.com/HamesterFelipe" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/guicavalheiro"><img src="https://avatars0.githubusercontent.com/u/64216011?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Cavalheiro</b></sub></a><br /><a href="https://github.com/guicavalheiro" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/JBannura"><img src="https://avatars0.githubusercontent.com/u/48581102?v=4" width="100px;" alt=""/><br /><sub><b>Jamil Bannura</b></sub></a><br /><a href="https://github.com/JBannura" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/loureqdsz"><img src="https://avatars.githubusercontent.com/u/48070657?s=400&u=4d80271644108cb653e48e7f4280ea46125740d1&v=4" width="100px;" alt=""/><br /><sub><b>Lourenço Souza</b></sub></a><br /><a href="https://github.com/Slamss" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LucasSusin"><img src="https://avatars.githubusercontent.com/u/39033196?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Simon Susin</b></sub></a><br /><a href="https://github.com/LucasSusin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/henriquederlam"><img src="https://avatars.githubusercontent.com/u/101577014?v=4" width="100px;" alt=""/><br /><sub><b>Henrique Derlam</b></sub></a><br /><a href="https://github.com/henriquederlam" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kevinribas"><img src="https://avatars.githubusercontent.com/u/50385593?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Ribas</b></sub></a><br /><a href="https://github.com/kevinribas" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/loureqdsz"><img src="https://avatars.githubusercontent.com/u/48070657?s=400&u=4d80271644108cb653e48e7f4280ea46125740d1&v=4" width="100px;" alt=""/><br /><sub><b>Lourenço Souza</b></sub></a><br /><a href="https://github.com/loureqdsz" title="Code">💻</a></td>
   </tr>
 </table>
