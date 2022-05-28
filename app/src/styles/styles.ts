@@ -1,3 +1,4 @@
+/* eslint-disable import/export */
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
@@ -44,6 +45,7 @@ export const Header = styled.div`
     align-items: center;
     justify-content: end;
     padding-bottom: ${pixelToRem(35)};
+    gap: 20px;
 `;
 
 export const RightSideOptions = styled.div`
@@ -84,6 +86,39 @@ export const ButtonSecundario = styled.div`
     }
 `;
 
+export const ButtonTerciario = styled.div`
+    display: flex;
+    border-radius: 5px;
+    background-color: #49cccc;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+        color: white;
+        font: var(--text-3);
+        text-decoration: none;
+    }
+`;
+
+export const ButtonQuartenario = styled.div`
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+        font: var(--text-3);
+        color: #49cccc;
+        font: var(--text-3);
+        text-decoration: none;
+    }
+`;
+
 export const ButtonLanguage = styled.div`
     display: flex;
     border-radius: 5px;
@@ -107,10 +142,37 @@ export const Logo = styled.image<GalleryFlexContainerProps>`
     background-image: url("/images/logosvg.svg");
 `;
 
+export const UserInk = styled.image<GalleryFlexContainerProps>`
+    width: ${pixelToRem(370)};
+    height: ${pixelToRem(370)};
+    background-image: url("/images/02.svg");
+`;
+
+export const MyConsults = styled.image<GalleryFlexContainerProps>`
+    width: ${pixelToRem(600)};
+    height: ${pixelToRem(180)};
+    background-image: url("/images/MINHAS_CONSULTAS.svg");
+`;
+
 export const Main = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: ${pixelToRem(605)};
+    max-width: 100%;
+`;
+
+export const UserDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+`;
+
+export const Left = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    @media (max-width: ${pixelToRem(1200)}) {
+        display: none;
+    }
 `;
 
 export const FirstTitle = styled.div`
@@ -121,12 +183,33 @@ export const FirstTitle = styled.div`
 export const FirstTitleMedicos = styled.div`
     margin-left: 175px;
     margin-bottom: 45px;
+    margin-left: 100px;
+    margin-bottom: 45px;
+    @media (max-width: ${pixelToRem(1200)}) {
+        display: none;
+    }
 `;
 
 export const SecondTitle = styled.p`
     font: 800 40px "Heebo", sans-serif;
     color: white;
     font-weight: 100;
+    width: 600px;
+    @media (max-width: ${pixelToRem(800)}) {
+        width: 400px;
+    }
+`;
+
+export const UserName = styled.p`
+    font: 800 40px "Heebo", sans-serif;
+    color: #49cccc;
+    font-weight: bold;
+    width: 600px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    @media (max-width: ${pixelToRem(800)}) {
+        width: 400px;
+    }
 `;
 
 export const Subtitle = styled.p`
@@ -276,10 +359,13 @@ export const SectionFooter = styled.div`
 export const DivImageFish = styled(motion.div)`
     align-self: flex-end;
     position: absolute;
-    padding-right: 3%;
-    width: 30%;
+    padding-right: 30px;
+    width: 400px;
     & img {
         width: 100%;
+    }
+    @media (max-width: ${pixelToRem(1200)}) {
+        display: none;
     }
 `;
 
@@ -298,6 +384,9 @@ export const DivSocial = styled.div`
         width: ${pixelToRem(25)};
         height: ${pixelToRem(25)};
     }
+    @media (max-width: ${pixelToRem(900)}) {
+        display: none;
+    }
 `;
 
 export const MiddleOptions = styled.div`
@@ -315,6 +404,9 @@ export const MiddleOptions = styled.div`
         font: var(--text-3);
         text-decoration: none;
     }
+    @media (max-width: ${pixelToRem(900)}) {
+        display: none;
+    }
 `;
 
 export const LogoFooter = styled.div`
@@ -322,8 +414,14 @@ export const LogoFooter = styled.div`
     flex-direction: column;
     position: absolute;
     margin-top: -90px;
-    margin-left: 200px;
+    margin-left: 180px;
     width: 600px;
+    @media (max-width: ${pixelToRem(900)}) {
+        width: 400px;
+    }
+    @media (max-width: ${pixelToRem(650)}) {
+        width: 200px;
+    }
 `;
 
 export const CustomA = styled.a`
@@ -336,4 +434,38 @@ export const DivDoctors = styled.a`
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+`;
+
+export const GreyTable = styled.div`
+    display: flex;
+    background-color: #f6f6f6;
+    width: 1100px;
+    margin-right: -50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const GreenTable = styled.div`
+    display: flex;
+    background-color: #49cccc;
+    width: 100%;
+    height: 92%;
+    margin-left: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const WhiteTable = styled.div`
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 98%;
+    margin-left: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 `;

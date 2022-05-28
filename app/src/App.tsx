@@ -105,7 +105,7 @@ function App() {
                     <MiddleOptions>
                         <ul>
                             <li>
-                                <a href="/about">Tela Inicial</a>
+                                <a href="/">Tela Inicial</a>
                             </li>
 
                             <li>
@@ -202,7 +202,7 @@ function App() {
                 </Container>
             </SectionAbout>
 
-            <SectionPsycolo ref={myRef} flex="column">
+            <SectionPsycolo ref={myRefP} flex="column">
                 <Container width="100%">
                     <ContainerPsycolo
                         width="100%"
