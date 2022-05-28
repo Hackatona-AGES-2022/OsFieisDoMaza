@@ -1,3 +1,4 @@
+/* eslint-disable import/export */
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
@@ -175,6 +176,13 @@ export const Left = styled.div`
 `;
 
 export const FirstTitle = styled.div`
+    margin-left: 95px;
+    margin-bottom: 45px;
+`;
+
+export const FirstTitleMedicos = styled.div`
+    margin-left: 175px;
+    margin-bottom: 45px;
     margin-left: 100px;
     margin-bottom: 45px;
     @media (max-width: ${pixelToRem(1200)}) {
@@ -238,6 +246,13 @@ export const SectionAbout = styled.div<GalleryFlexContainerProps>`
     flex-direction: ${(props) => props.flex};
 `;
 
+export const SectionPsycolo = styled.div<GalleryFlexContainerProps>`
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: ${(props) => props.flex};
+`;
+
 export const DivProblemSolution = styled(motion.div)<GalleryFlexContainerProps>`
     width: 85%;
     align-items: center;
@@ -273,7 +288,11 @@ export const TextRights = styled.p`
     color: white;
     font-weight: bold;
     padding-top: ${pixelToRem(26)};
-    margin-bottom: 35px;
+    text-align: center;
+
+    & span {
+        font-weight: bold;
+    }
 `;
 
 export const GalleryContent = styled.div<GalleryFlexContainerProps>`
@@ -302,6 +321,16 @@ export const ContainerAbout = styled.div<GalleryFlexContainerProps>`
     justify-content: ${(props) => props.justifyContent};
     width: ${(props) => props.width};
     margin-top: ${pixelToRem(110)};
+    margin-bottom: ${pixelToRem(160)};
+    gap: ${pixelToRem(200)};
+`;
+
+export const ContainerPsycolo = styled.div<GalleryFlexContainerProps>`
+    display: flex;
+    flex-direction: ${(props) => props.flex};
+    align-items: ${(props) => props.alignItems};
+    justify-content: ${(props) => props.justifyContent};
+    width: ${(props) => props.width};
     margin-bottom: ${pixelToRem(160)};
     gap: ${pixelToRem(200)};
 `;
@@ -349,7 +378,7 @@ export const DivFooterBottom = styled.div`
     align-self: flex-end;
     margin-right: 150px;
     position: relative;
-    top: 368px;
+    top: 348px;
 `;
 
 export const DivSocial = styled.div`
@@ -366,7 +395,7 @@ export const DivSocial = styled.div`
 
 export const MiddleOptions = styled.div`
     gap: ${pixelToRem(53)};
-    margin-right: 250px;
+    margin-right: 210px;
 
     & ul {
         display: flex;
@@ -401,6 +430,14 @@ export const LogoFooter = styled.div`
 
 export const CustomA = styled.a`
     cursor: pointer;
+`;
+
+export const DivDoctors = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 `;
 
 export const GreyTable = styled.div`
