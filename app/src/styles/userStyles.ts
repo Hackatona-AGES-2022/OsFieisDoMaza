@@ -9,11 +9,16 @@ export const UserStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 
-
 body{
   font-family: "Heebo", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: white;
+  background: url("/images/bolinhas.svg") no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 :root {

@@ -6,11 +6,15 @@ import {
     Header,
     UserInk,
     UserDiv,
-    SecondTitle,
+    UserName,
     GreyTable,
     RightSideOptions,
     ButtonTerciario,
     ButtonQuartenario,
+    Left,
+    MyConsults,
+    WhiteTable,
+    GreenTable,
 } from "./styles/styles";
 import { UserStyles } from "./styles/userStyles";
 import pixelToRem from "./utils/pxToRem";
@@ -32,11 +36,15 @@ function User() {
             </Header>
 
             <UserDiv>
-                <UserInk />
-                <SecondTitle>OLÁ LUCAS</SecondTitle>
-
+                <Left>
+                    <MyConsults />
+                    <UserName>LUCAS</UserName>
+                    <UserInk />
+                </Left>
                 <GreyTable>
-                    <p>asdasd</p>
+                    <GreenTable>
+                        <WhiteTable />
+                    </GreenTable>
                 </GreyTable>
             </UserDiv>
         </Container>
