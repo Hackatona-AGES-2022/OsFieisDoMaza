@@ -406,24 +406,33 @@ export const CustomA = styled.a`
 export const GreyTable = styled.div`
     display: flex;
     background-color: #f6f6f6;
-    width: 1000px;
-    margin-left: 30px;
-    border-radius: 30px;
+    width: 1100px;
+    margin-right: -50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const GreenTable = styled.div`
     display: flex;
     background-color: #49cccc;
     width: 100%;
-    margin: 20px;
-    border-radius: 20px;
+    height: 92%;
+    margin-left: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const WhiteTable = styled.div`
+    flex-direction: column;
     display: flex;
     background-color: white;
     width: 100%;
-    margin-top: 5px;
-    margin-left: 5px;
-    border-radius: 20px;
+    height: 98%;
+    margin-left: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 `;
