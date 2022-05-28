@@ -288,7 +288,11 @@ export const TextRights = styled.p`
     color: white;
     font-weight: bold;
     padding-top: ${pixelToRem(26)};
-    margin-bottom: 35px;
+    text-align: center;
+
+    & span {
+        font-weight: bold;
+    }
 `;
 
 export const GalleryContent = styled.div<GalleryFlexContainerProps>`
