@@ -5,10 +5,9 @@ import {
     Container,
     Header,
     UserInk,
-    Main,
+    UserDiv,
     SecondTitle,
     GreyTable,
-    InkGuy,
     RightSideOptions,
     ButtonTerciario,
     ButtonQuartenario,
@@ -32,14 +31,14 @@ function User() {
                 </RightSideOptions>
             </Header>
 
-            <Main>
+            <UserDiv>
                 <UserInk />
                 <SecondTitle>OLÁ LUCAS</SecondTitle>
 
                 <GreyTable>
                     <p>asdasd</p>
                 </GreyTable>
-            </Main>
+            </UserDiv>
         </Container>
     );
 }

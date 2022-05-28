@@ -148,6 +148,12 @@ export const UserInk = styled.image<GalleryFlexContainerProps>`
 
 export const Main = styled.div`
     display: flex;
+    flex-direction: column;
+    max-width: 100%;
+`;
+
+export const UserDiv = styled.div`
+    display: flex;
     flex-direction: row;
     max-width: 100%;
 `;
@@ -164,6 +170,7 @@ export const SecondTitle = styled.p`
     font: 800 40px "Heebo", sans-serif;
     color: white;
     font-weight: 100;
+    width: 600px;
 `;
 
 export const Subtitle = styled.p`
